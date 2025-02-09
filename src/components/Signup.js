@@ -2,6 +2,7 @@ import React, { useState, useContext } from 'react';
 import styled from 'styled-components';
 import { AuthContext } from '../context/AuthContext';
 import { toast } from 'react-toastify';
+import { theme } from "../theme";
 
 const Container = styled.div`
   display: flex;
@@ -9,6 +10,9 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   height: 80vh;
+  background-color: ${theme.colors.background};
+  background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
+  background-repeat: repeat;
 `;
 
 const Form = styled.form`

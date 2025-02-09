@@ -11,7 +11,9 @@ const HomeContainer = styled.div`
   align-items: center;
   justify-content: center;
   height: calc(100vh - 70px);
-  background: ${theme.colors.background};
+  background-color: ${theme.colors.background};
+  background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
+  background-repeat: repeat;
 `;
 
 const Title = styled.h1`
